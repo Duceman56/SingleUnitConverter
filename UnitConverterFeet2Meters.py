@@ -1,7 +1,6 @@
 print("Feet to Meter Conversion")
-x = int(input("Input how long the object is in feet: "))
-print("You entered: ")
-print(x)
+x = int(input("Input object length in feet: "))
+print("You entered: ") + (print(x))
 if x >= 0: 
     print("Acceptable number")
 else : 
