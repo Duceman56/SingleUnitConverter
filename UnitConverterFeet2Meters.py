@@ -8,3 +8,9 @@ if len >= 0:
     print(str(converted_unit) + " meters")
 else : 
     print("ERROR! Positive value needed!")
+
+
+print("All purpose linear unit convertor")
+type = str(input("What unit will be inputed? (Ex. Miles, Meters, Inches, etc.): "))
+len = float(input("Input length: "))
+print("you entered " + str(len) +" "+ str(type))
