@@ -7,5 +7,8 @@ con_type = str(input("What units to be outputted?: ")).capitalize()
 
 if type.__eq__("Meter") and con_type.__contains__("Inc"):
     print(str(round(len*39.37, 3)) + " Inches")
-else :
+elif :
         print("Not Today boi")
+
+if type.= miles and converted = kiloester
+
