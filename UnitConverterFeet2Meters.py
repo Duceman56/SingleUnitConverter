@@ -7,4 +7,4 @@ if len >= 0:
     converted_unit = round((len/3.281), 3)
     print(str(converted_unit) + " meters")
 else : 
-    exit(print("ERROR! Positive value needed!"))
+    print("ERROR! Positive value needed!")
