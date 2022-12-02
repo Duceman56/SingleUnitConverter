@@ -7,7 +7,12 @@ con_type = str(input("What units to be outputted?: ")).capitalize()
 
 if type.__eq__("Meter") and con_type.__contains__("Inc"):
     print(str(round(len*39.37, 3)) + " Inches")
-elif : type.__eq__("Meter") and con_type.__contains__("Inc"):
-        print("Not Today boi")
+#elif : type.__eq__("Meter") and con_type.__contains__("Inc"):
+#        print("Not Today boi")
 
-if type.= miles and converted = kiloester
+#if type.= miles and converted = kiloester
+
+#parameter: inputvalue is a float representing the value of input to convert 
+#parameter: inputunit is a string representing   
+def cv(InputValue, InputUnit, OutputUnit) :
+    
