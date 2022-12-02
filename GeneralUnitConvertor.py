@@ -5,7 +5,6 @@ METER_KM = 1000
 METER_DM = 10
 
 def convertToUnit (inputValue, inputUnit, outputUnit) :
-    #print("inputValue = " + str(inputValue) + ", inputUnit = " + str(inputUnit) + ", outputUnit = " + str(outputUnit))
     upperInputUnit = inputUnit.upper()
     if outputUnit.upper() == "DECIMETER" :
         return(convertToUnit(inputValue * METER_DM, inputUnit,  "METER")) ##culprit of error
@@ -49,5 +48,5 @@ def convertFromFeet (val, toConvert) :
 
 ##seperateDriver
 
-x  = convertToUnit(10, "inch", "decimeter")
+x  = convertToUnit(10, "meter", "inch")
 print(x)
