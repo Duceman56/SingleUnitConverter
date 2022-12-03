@@ -48,5 +48,5 @@ def convertFromFeet (val, toConvert) :
 
 ##seperateDriver
 
-x  = convertToUnit(10, "meter", "inch")
+x  = convertToUnit(3, "feet", "meter")
 print(x)
